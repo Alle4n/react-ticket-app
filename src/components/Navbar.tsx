@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import { isAuthenticated } from "../services/authService";
+import { isAuthenticated } from "../services/authService";
 
 export default function Navbar() {
   const loggedIn = isAuthenticated();
